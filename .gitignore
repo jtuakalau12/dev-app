@@ -1,2 +1,5 @@
 jenkins-server/.terraform
 jenkins-server/.terraform.lock.hcl
+
+EKS/.terraform
+EKS/.terraform.lock.hcl
