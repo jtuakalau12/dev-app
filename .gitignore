@@ -1,3 +1,2 @@
 jenkins-server/.terraform
 jenkins-server/.terraform.lock.hcl
-jenkins-server/*.tfvars
