@@ -1,10 +1,11 @@
 data "aws_ami" "example" {
-  most_recent      = true
-  owners           = ["amazon"]
+
+  most_recent = true
+  owners      = ["amazon"]
 
   filter {
     name   = "name"
-    values = ["myami-*"]
+    values = ["ubuntu/images/hvm-ssd/ubuntu-jammy-22.04-arm64-server-20240411"]
   }
 
   filter {
@@ -17,3 +18,5 @@ data "aws_ami" "example" {
     values = ["hvm"]
   }
 }
+
+data "aws_availability_zones" "azs" {}
